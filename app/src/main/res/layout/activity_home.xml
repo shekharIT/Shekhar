@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="16dp"
+        tools:context="jio.ril.com.riljio.activity.HomeActivity">
+
+        <Button
+            android:id="@+id/tweets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/stub"
+            android:onClick="onTweeterClick"
+            android:text="@string/twitter_tab" />
+
+        <Button
+            android:id="@+id/top_ten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/tweets"
+            android:layout_toStartOf="@+id/stub"
+            android:onClick="onHashTagClick"
+            android:text="@string/hashtag_tab" />
+
+        <View
+            android:id="@+id/stub"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_centerHorizontal="true" />
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/top_ten">
+
+        </FrameLayout>
+
+    </RelativeLayout>
+
+</layout>
