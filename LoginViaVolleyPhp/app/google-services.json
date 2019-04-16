@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "547738763489",
+    "firebase_url": "https://loginviavolleyphp.firebaseio.com",
+    "project_id": "loginviavolleyphp",
+    "storage_bucket": "loginviavolleyphp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547738763489:android:c13553c7547ada08",
+        "android_client_info": {
+          "package_name": "com.example.loginregistration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547738763489-f06adk924vi7ft06nakg4mc4epsj69uc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.loginregistration",
+            "certificate_hash": "1bb8a7975596c7d9f6ce5667249e445dbf685efa"
+          }
+        },
+        {
+          "client_id": "547738763489-iv04327mlmo9e96pte2ted8ddfd2iqas.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5BksfjButYhcGnfna9o_7F46XD1VYXn8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547738763489-iv04327mlmo9e96pte2ted8ddfd2iqas.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
