@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">RILJio</string>
-    <string name="twitter_tab">Tweets</string>
-    <string name="hashtag_tab">Top 10</string>
-    <string name="tweets">Tweets</string>
-    <string name="top10">Top 10</string>
-</resources>
